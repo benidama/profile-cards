@@ -1,0 +1,67 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Kumbh Sans";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./images/bg-pattern-bottom.svg);
+  background-repeat: repeat;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.img-of-circles {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.profile {
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+
+.user-img {
+  display: flex;
+  position: relative;
+  left: 150px;
+  bottom: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.user-name {
+  position: relative;
+  bottom: 15px;
+}
+
+#footer-section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 1px 0px rgb(183, 180, 180);
+  border-radius: 0px 0px 15px 15px;
+}
+
+.user-info {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 10px;
+}
+
+.weight {
+  font-weight: 200;
+}
